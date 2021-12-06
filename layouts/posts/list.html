@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+<body>
+<div >
+<article>
+  <h1 class="content-listing-header sans">Essays</h1>
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+  {{ range $paginator.Pages }}
+  <ul class="content-listing ">
+  <li class="listing">
+  <hr class="slender">
+  <a href="{{ .Permalink }}"><h3 class="contrast">{{ .Title }}</h3></a>
+  <br><span class="smaller">{{ time.Format "Jan 2, 2006" .Date  }}</span><br/>
+  {{ range .Params.categories }}
+   {{ $myname :=  print "categories#" . }}
+  <span class="mytag smaller">&lfloor; <a href="{{ $myname | relURL }}">{{ . | lower }}</a> &rfloor; </span>
+  {{ end }}
+  <div>{{ .Params.excerpt | markdownify }}</div>
+  </li>
+  </ul>
+  {{ end }}
+  {{ $paginator := .Paginator }}
+  {{ if gt $paginator.TotalPages 1 }}
+    <div class="pagination">
+    {{ if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}">&#10094;</a>
+    {{ else }}
+      <a href="#">&#10094;</a>
+    {{ end }}
+    {{ range $paginator.Pagers }}
+      {{ if eq . $paginator }}
+	<a class="active" href="#">{{ .PageNumber }}</a>
+      {{ else }}
+	<a  href="{{ .URL }}">{{ .PageNumber }}</a>
+      {{ end }}
+    {{ end }}
+    {{ if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}">&#10095;</a>
+    {{ else }}
+      <a href="#">&#10095;</a>
+   {{ end }}
+   {{ end }}
+    </div>
+
+{{ end }}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+<title>{{ .Site.Title }} - {{ .Title  }}</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ .Description }}">
+  <meta name="keywords" content="{{ range .Keywords }}{{ . }},{{ end }}">
+  <meta name="author" content="{{ .Site.Title }}">
+  {{ hugo.Generator }}
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  {{ if .Site.Data.options.lato_font_load }}
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  {{ end }}
+
+  <!-- Load MathJax, if necessary. -->
+  {{ if or .Params.math .IsHome }}
+    {{ partial "math.html" . }}
+  {{ end }}
+
+  {{ $sass := resources.Get "sass/tufte.scss" }}
+  {{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
+  <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+
+  <!-- AM: contain class definitions specific to Anil Menon's site [ -->
+  {{ $sass := resources.Get "sass/menon.scss" }}
+  {{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
+  <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+  <!-- AM: ] -->
+
+  {{ $can1 := .Permalink }}
+  <link rel="canonical" href="{{ $can1 }}">
+
+  <link rel="alternate" type="application/rss+xml" title="{{ .Title }}" href="{{ path.Join .Site.BaseURL "/feed.xml" }}" />
+</head>
+

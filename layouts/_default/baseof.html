@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+  {{ with .Params.breath }}
+  	<body class="{{ $.Params.breath }}" >
+  {{ else }}
+  	<body >
+  {{ end }}
+{{ partial "header-nav.html" . }}
+
+	{{ block "main" . }}
+
+	{{ end }}
+	{{ partial "print-footer.html" . }}
+	{{ partial "footer.html" . }}
+</body>
+</html>

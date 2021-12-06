@@ -1,0 +1,10 @@
+<div class="gal-wrapper" >
+  <div class="gal-grid" >
+  <div class="gal-frame">
+	{{ range .Site.Data.anthos }}
+	{{ if not .exclude }}
+<a href="{{ .url }}" title="{{ .friendly }}"><img src ="{{ relURL .cover }}" class="gal-img" title="{{ .friendly }}"></a>
+	{{ end }}
+	{{ end }}
+  </div>
+</div>

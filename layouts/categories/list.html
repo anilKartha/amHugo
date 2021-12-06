@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<body>
+<div >
+<article>
+<h1 class="content-listing-header sans">Categories</h1>
+<div>
+    <ul class="tag-listing">
+        {{ range $key, $taxonomy := .Site.Taxonomies.categories }}
+           <li class="tag-content-listing">
+	   {{ if $key }} <hr class="slender fattywidth"> {{ end}} 
+            <h2>{{ $key | humanize }}<a id="{{$key}}">&nbsp;</a></h2>
+            <br>
+	   {{ range $taxonomy.Pages }}
+	    <div class="tag-article-date">{{ time.Format "Jan 2, 2006" .Date }}</div>
+            <div class="tag-article-content">
+		<a href="{{ .Permalink }}"> {{.Title}} </a>
+            </div>
+           {{ end }}
+           </li>
+        {{ end }}
+    </ul>
+</div>
+
+{{ end }}

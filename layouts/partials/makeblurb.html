@@ -1,0 +1,2 @@
+<div class='blurb'><blockquote><p>{{ .blurb | markdownify }}</p><footer>{{ print "&emsp;&emsp;&mdash;" .author  | safeHTML }}<cite>{{if ne .source "" }}{{ print ", " .source  | markdownify }}{{end}} </cite></footer></blockquote></div>
+

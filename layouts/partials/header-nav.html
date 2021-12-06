@@ -1,0 +1,25 @@
+<!--- Header and nav template site-wide -->
+<header>
+	<div class="nav-parent">
+	    <div class="logos1">
+		<a href="{{ relURL "/" }}">ANIL MENON</a>
+	    </div>
+	    <div class="theseparator"></div>
+	    {{ $cntr := 0 }}
+	    {{ $pagelink := .RelPermalink }}
+	    {{ range $item := .Site.Data.navigation }}
+		{{ if not $item.nav_exclude }}
+			{{ $cntr = add $cntr 1 }}
+			{{ $theitemname := print "theitem" $cntr }}
+		    <div class={{ $theitemname }}>
+			{{ if eq $item.slug $pagelink }}
+			    <a href="{{ relURL $item.slug }}" class="active">{{ $item.title }}</a>
+			{{ else }}
+			    <a href="{{ relURL $item.slug }}">{{ $item.title }}</a>
+			{{ end }}
+		    </div>	
+		{{ end }}
+	    {{ end }}
+	    <div class="thelastitem" ></div>
+	</div>
+</header>

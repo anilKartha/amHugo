@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<h1 class="content-listing-header sans">Categories</h1>
+<div>
+    <ul class="tag-listing">
+        {{ range $catlabel := range .Data.Terms.Alphabetical }}
+           <li class="tag-content-listing">
+            <h2> {{ $catlabel | humanize }}</h2>
+            <br>
+	   {{ range where .Site.RegularPages ".Params.categories" "intersect" (slice $catabel) }}
+	    <div class="tag-article-date">{{ time.Format "Monday 24, 2006" .Date }}</div>
+            <div class="tag-article-content">
+		<a href="{{ .Permalink }}"> {{.Title}} </a>
+            </div>
+           {{ end }}
+           </li>
+	<hr class="slender">
+        {{ end }}
+    </ul>
+</div>
+
+{{ end }}

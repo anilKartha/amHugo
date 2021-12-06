@@ -1,0 +1,16 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Anil Menon Website"
+theme = "hugo-softe"
+
+paginate= 5
+
+horizdots = "/static/img/dotsh.gif"
+
+[params]
+  math = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

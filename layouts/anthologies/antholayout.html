@@ -1,0 +1,15 @@
+{{ define "main" }}
+	<article class="group">
+<h1 class="content-listing-header sans">Anthologies</h1>
+
+  <div class="gallery-note">
+
+	{{ .Content }}
+
+  </div>
+<hr class="slender fattywidth">
+
+{{ partial "bookgallery.html" . }}
+
+	</article>
+{{ end }}

@@ -1,0 +1,12 @@
+name = "Softe"
+license = "MIT"
+licenselink = "https://github.com/shawnohare/hugo-tufte/blob/master/LICENSE.md"
+description = "A minimalist blog theme using Tufte-css."
+homepage = "http://github.com/anilKartha/hugo-softy"
+tags = ["blog", "tufte", "minimal"]
+features = ["math", "tufte-css", "tufte"]
+min_version = 0.15
+
+[author]
+  name = "Anil Menon"
+  homepage = "http://www.anilmenon.com"

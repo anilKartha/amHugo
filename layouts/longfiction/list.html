@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<body>
+<div >
+<article>
+  <h1 class="content-listing-header sans">Novels &amp; Collections </h1>
+  <div class="bookrack">
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "bookcover") }}
+  {{ range $paginator.Pages }}
+    <div class="book">
+      <h2><a href="{{ .Params.linkdetail }}">{{ .Params.title }}</a></h2>
+      <p style="margin-top:1rem; font-weight: 400; font-size:1.5rem;"> {{ .Params.publisher }}. {{range .Params.credits }}<span style="font-size:1rem">&star;</span> {{.}}{{end}}</p>
+    </div>
+  </div >
+  <div >
+    <a href="{{ .Params.linkdetail }}" title="{{.Params.Title}}" ><img class="{{ .Params.orientation }}" src="{{ .Params.heroimage }}"/></a>
+    {{ range .Params.blurbs}}
+	{{ partial "makeblurb.html" .datum }}
+    {{ end }}
+ {{ end }}
+  </div>
+</div >
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "bookdetails") }}
+  {{ range $paginator.Pages }}{{end}}
+</article>
+</body>
+
+{{ end }}

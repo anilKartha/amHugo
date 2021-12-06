@@ -1,0 +1,22 @@
+#
+# Anil Menon
+# date: November 15, 2021
+# 
+# Notes:
+# 	the trailing ' is simportant for getting the green "active" indicator to work.
+#
+- title: about
+  slug: /about/
+  nav_exclude: false
+- title: novels 
+  slug: /longfiction/
+  nav_exclude: false
+- title: essays
+  slug: /posts/
+  nav_exclude: false 
+- title: anthologies
+  slug: /anthologies/
+  nav_exclude: false 
+- title: contact
+  slug: /contact/
+  nav_exclude: false 

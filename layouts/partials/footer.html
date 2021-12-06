@@ -1,0 +1,18 @@
+<footer class="page-footer">
+
+	<hr class="slender">
+	  <ul class="footer-links">
+	    <li><a href="mailto:iam@anilmenon.com"><span class="icon-mail3"></span></a></li>    
+	    {{ range .Site.Data.social }}
+            {{ if .needed }}
+	      <li>
+		<a href="{{ .link }}"><span class="{{ .icon }}"></span></a>
+	      </li>
+            {{ end }}
+	    {{ end }}  
+	  </ul>
+	<div class="credits">
+	<span>&copy; {{ now.Format "2006" }} &nbsp;&nbsp;{{ upper "Anil Menon" }}</span></br> <br>
+	</div>  
+</footer>
+{{ partial "body.includes.html" . }}

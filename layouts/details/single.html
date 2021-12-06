@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+{{if ne .Params.type "bookcover" }}
+<div class="post-frame">
+	<div class="post-title-div">
+	   <h1> {{ .Title }} </h1>
+	</div>
+	{{ with .Params.heroimage }}
+	   <div class="post-image-div">
+           <img class="mybanner-image" src="{{ $.Params.heroimage }}" />
+	   </div>
+	{{ end }}
+	<div class="post-content-div">
+	    <article >
+        	{{ .Content }}
+	     </article>
+	</div>
+</div>
+{{ end }}
+
+{{ end }}
