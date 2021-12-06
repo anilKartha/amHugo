@@ -15,6 +15,8 @@
 		<a href=# id="top"></a>
         	{{ .Content }}
 		$$~$$
+		{{ template "_internal/disqus.html" . }}
+		$$~$$
 		<div class="post-nav">
 		   <p>
 		   {{ if .PrevPage }}

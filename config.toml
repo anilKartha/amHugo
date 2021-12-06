@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Anil Menon Website"
 theme = "hugo-softe"
 
+disqusShortname="rounddice"
 paginate= 5
 
 horizdots = "/static/img/dotsh.gif"

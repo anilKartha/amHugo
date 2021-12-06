@@ -377,6 +377,13 @@ img.magnify-sideimage {
   background-size: cover;
   position: relative; }
 
+.mybanner-image {
+  display: grid;
+  min-width: 350px;
+  width: 87.5%;
+  height: 100%;
+  object-fit: cover; }
+
 /* ] */
 .gallery-note {
   width: 87.5%;
