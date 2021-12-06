@@ -15,8 +15,8 @@
 		<a href=# id="top"></a>
         	{{ .Content }}
 		$$~$$
-		{{ template "_internal/disqus.html" . }}
-		$$~$$
+		<div id="hyvor-talk-view"></div>
+                $$~$$
 		<div class="post-nav">
 		   <p>
 		   {{ if .PrevPage }}
@@ -35,5 +35,13 @@
 	      </article>
 	</div>
 </div>
+<script type="text/javascript">
+                      var HYVOR_TALK_WEBSITE = 5829;
+                      var HYVOR_TALK_CONFIG = {
+	                  url: false,
+	                  id: {{ .Params.id }}
+                  };
+               </script>
+              <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>
 
 {{ end }}
