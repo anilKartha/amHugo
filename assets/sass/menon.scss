@@ -209,6 +209,16 @@ img.magnify-sideimage {
   position: relative;
 }
 
+// Banner image (layer 1)
+.mybanner-image {
+  display: grid;	//TODO: Is this necessary?
+  min-width: 350px; // Do not resize to smaller than this.
+  width: $defaultwidth;	// We'll work with this for now. This gets the width right
+  height: 100%;
+  object-fit: cover; // Using this so the image can be any size and still look halfway decent.
+}
+
+
 /* ] */
 
 .gallery-note{
