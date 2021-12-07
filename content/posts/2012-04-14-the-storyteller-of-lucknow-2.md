@@ -4,6 +4,7 @@ title: 'Naiyar Masud: The Storyteller of Lucknow'
 date: 2012-04-14T22:00:45+00:00
 author: anilm
 excerpt: "About finding and reading the Urdu writer Naiyar Masud."
+disqus_url: "http://anilmenon.com/blog/?p=1069"
 dsq_thread_id:
   - "649630839"
 yarpp_meta:
