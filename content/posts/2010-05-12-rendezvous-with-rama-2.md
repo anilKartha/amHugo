@@ -4,6 +4,8 @@ title: Rendezvous with Rama
 date: 2010-05-12T22:45:32+00:00
 author: anilm
 excerpt: "On the strange, tormented hero of Valmiki's psychological masterpiece."
+disqus_id: "814 http://anilmenon.com/blog/?p=814"
+disqus_url: "http://anilmenon.com/blog/?p=814"
 dsq_thread_id:
   - "94792614"
 yarpp_meta:

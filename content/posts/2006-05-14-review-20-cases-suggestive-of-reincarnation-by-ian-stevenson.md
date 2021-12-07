@@ -4,6 +4,8 @@ title: "Review: 20 Cases Suggestive Of Reincarnation by Ian Stevenson"
 date: 2006-05-14T10:31:00+00:00
 author: anilm
 excerpt: "Reincarnation is one of those ideas that refuses to die. A review of Ian Stevenson's empirical studies."
+disqus_url: "http://anilmenon.com/wordpress/2006/05/review-20-cases-suggestive-of-reincarnation-by-ian-stevenson.html"
+disqus_id: "22 http://anilmenon.com/wordpress/2006/05/review-20-cases-suggestive-of-reincarnation-by-ian-stevenson.html"
 dsq_thread_id:
   - "31882359"
 yarpp_meta:

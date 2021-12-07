@@ -4,6 +4,8 @@ title: "Odd Gods, God's Odds"
 date: 2010-03-26T14:34:45+00:00
 author: anilm
 excerpt: "Four-player Godminton: Sam Harris & Michael Shermer debate Jean Houston Deepak & Chopra on God's existence. Spoiler alert! God abstains from judgment."
+disqus_url: "http://anilmenon.com/blog/?p=248"
+disqus_id: "248 http://anilmenon.com/blog/?p=248"
 dsq_thread_id:
   - "79629595"
 heroimage: /img/oddgod/bugsbunnyhyungkooleelarge.gif

@@ -5,8 +5,8 @@ date: 2005-10-31T15:08:20+00:00
 author: Anil Menon
 comments: true
 excerpt: "Traditionally, kolams are drawn by Tamil women, early in the morning and at the threshold of their homes. Kolams have fascinating connections with Cretan labyrinths, sona drawings of the Chockwe and picture grammars."
-disqus_url: "http://anilmenon.com/kolam-what-the-hand-said/"
-discus_identifier: "32057511"
+disqus_url: "40"
+discus_id: "40"
 heroimage: /img/kolam/JacksonPollockNumber-8.jpg
 image-desc: Jackson Pollock painting
 math: true

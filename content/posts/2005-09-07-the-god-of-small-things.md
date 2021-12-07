@@ -4,6 +4,8 @@ title: "The God of Small Things"
 date: 2005-09-07T17:52:52+00:00
 comments: true
 excerpt: "A paen to R. L. Goodstein's miraculous theorem in Proof theory. What's it about? The God of Small Things of course."
+disqus_url: "http://anilmenon.com/wordpress/2005/09/the-god-of-small-things.html"
+disqus_id: "45 http://anilmenon.com/wordpress/2005/09/the-god-of-small-things.html"
 heroimage: /img/thegodofsmallthings/M13.1Hydra.jpg
 image-desc: Hercules and the Hydra
 dsq_thread_id: "31886611"

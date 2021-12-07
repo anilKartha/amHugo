@@ -4,6 +4,8 @@ title: "The Price Of An Indian Book"
 date: 2006-02-26T23:30:00+00:00
 author: anilm
 excerpt: "The cost of producing A. K. Ramanujan's Collected Essays was basically a lifetime of study. Book distributors seem unable to agree how they should price that effort."
+disqus_url: "http://anilmenon.com/wordpress/2006/02/the-price-of-an-indian-book.html"
+disqus_id: "32 http://anilmenon.com/wordpress/2006/02/the-price-of-an-indian-book.html"
 dsq_thread_id:
   - "31886516"
 yarpp_meta:

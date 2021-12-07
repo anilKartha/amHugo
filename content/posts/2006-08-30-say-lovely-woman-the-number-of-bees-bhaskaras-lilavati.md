@@ -4,6 +4,8 @@ title: "Say, lovely woman, the number of bees: Bhaskara's Lilavati"
 date: 2006-08-30T06:15:00+00:00
 author: anilm
 excerpt: "On how Bhaskaracharya's _Lilavati_, a classic Sanskrit text, pollinated mathematics with poetry."
+disqus_url: "http://anilmenon.com/wordpress/2006/08/say-lovely-woman-the-number-of-bees-bhaskaras-lilavati.html"
+disqus_id: "20 http://anilmenon.com/wordpress/2006/08/say-lovely-woman-the-number-of-bees-bhaskaras-lilavati.html"
 dsq_thread_id:
   - "31886491"
 heroimage: /img/Lilavati/kenohsawa-840x558.gif

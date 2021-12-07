@@ -4,6 +4,8 @@ title: "Tale of the Vaio"
 date: 2006-09-04T23:50:00+00:00
 author: anilm
 excerpt: "On the heartrending travails of getting my VAIO to connect to the net and the morals drawn thereof."
+disqus_url: "http://anilmenon.com/wordpress/2006/09/tale-of-the-vaio.html"
+disqus_id: "19 http://anilmenon.com/wordpress/2006/09/tale-of-the-vaio.html"
 dsq_thread_id:
   - "31886493"
 heroimage: /img/vaio/flatline.jpg

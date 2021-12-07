@@ -4,6 +4,8 @@ title: "The Griffith Ramayana"
 date: 2010-04-23T22:30:52+00:00
 author: anilm
 excerpt: "How an Englishman went up a subcontinent and came down an Indian."
+disqus_url: "http://anilmenon.com/blog/?p=734"
+disqus_id: "734 http://anilmenon.com/blog/?p=734"
 dsq_thread_id:
   - "88673406"
 heroimage: /img/griff/oriya-olam.gif

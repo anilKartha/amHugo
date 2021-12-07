@@ -5,6 +5,8 @@ title: "Stanislaw Lem: The Aesop Of Cyberspace"
 date: 2006-03-30T09:00:00+00:00
 author: anilm
 excerpt: "Stanislaw Lem, author of _The Cyberiad_ died on March 28, 2006. A cheeky tribute to the Aesop of Cyberspace."
+disqus_url: "http://anilmenon.com/wordpress/2006/03/stanislaw-lem-the-aesop-of-machines.html"
+disqus_id: "24 http://anilmenon.com/wordpress/2006/03/stanislaw-lem-the-aesop-of-machines.html"
 dsq_thread_id:
   - "31886507"
 yarpp_meta:

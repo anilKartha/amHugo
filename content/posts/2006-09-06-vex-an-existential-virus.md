@@ -4,6 +4,8 @@ title: 'Vex: An Existential Virus'
 date: 2006-09-06T21:00:00+00:00
 author: anilm
 excerpt: "Thoughts on the fabrication of a maximally effective virus. Don't try this at home."
+disqus_url: "http://anilmenon.com/wordpress/2006/09/vex-an-existential-virus.html"
+disqus_id: "18 http://anilmenon.com/wordpress/2006/09/vex-an-existential-virus.html"
 dsq_thread_id:
   - "32244770"
 yarpp_meta:

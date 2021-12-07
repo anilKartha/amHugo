@@ -4,6 +4,8 @@ title: "A Perfect Tale"
 date: 2005-08-28T07:53:14+00:00
 excerpt: "500 words get together to tell a story."
 comments: true
+disqus_url: "http://anilmenon.com/wordpress/2005/08/a-perfect-tale.html"
+disqus_id: "47 http://anilmenon.com/wordpress/2005/08/a-perfect-tale.html"
 dsq_thread_id:
   - "32058879"
 heroimage: /img/astoryandasong/templepuppet.jpg

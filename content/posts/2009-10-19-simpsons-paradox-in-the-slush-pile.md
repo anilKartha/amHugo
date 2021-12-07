@@ -4,6 +4,8 @@ title: "Simpson's Paradox In The Slush Pile"
 date: 2009-10-19T23:45:00+00:00
 author: anilm
 excerpt: "Simpson's Paradox, not racism, might be behind the discrepancy in publication acceptances between Western and minority writers."
+disqus_url: "http://anilmenon.com/blog/?p=194"
+disqus_id: "194 http://anilmenon.com/blog/?p=194"
 dsq_thread_id:
   - "51291271"
 heroimage: /img/simpson/dices.gif

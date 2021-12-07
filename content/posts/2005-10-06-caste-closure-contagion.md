@@ -6,6 +6,8 @@ author: anilm
 excerpt: "Caste is not the same thing as class or race. It's better to think of it as a 'closure system' rather than a hierarchy. A closure system is--- what the heck, read the damn thing."
 dsq_thread_id:
   - "31884268"
+disqus_url: "http://anilmenon.com/wordpress/2005/10/caste-closure-contagion.html"
+disqus_id: "43 http://anilmenon.com/wordpress/2005/10/caste-closure-contagion.html"
 yarpp_meta:
   - 'a:1:{s:27:"yarpp_display_for_this_post";i:0;}'
 heroimage: /img/caste/ScalaNaturaHoriz.jpg
