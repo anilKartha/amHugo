@@ -5,6 +5,7 @@ date: 2012-04-14T22:00:45+00:00
 author: anilm
 excerpt: "About finding and reading the Urdu writer Naiyar Masud."
 disqus_url: "http://anilmenon.com/blog/?p=1069"
+disqus_id: "1069 http://anilmenon.com/blog/?p=1069"
 dsq_thread_id:
   - "649630839"
 yarpp_meta:
