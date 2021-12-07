@@ -39,7 +39,7 @@
            var HYVOR_TALK_WEBSITE = 5829;
            var HYVOR_TALK_CONFIG = {
            url: {{ .Params.disqus_url }},
-           id: {{ .Params.id }}
+           id: {{ print .Params.discus_url " " .Params.id }}
           };
   </script>
   <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>
